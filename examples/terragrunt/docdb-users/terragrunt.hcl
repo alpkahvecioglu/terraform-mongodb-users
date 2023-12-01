@@ -111,8 +111,9 @@ locals {
   }
 }
 
+# where you keep the terraform module
 terraform {
-  source = "../../..//modules/terraform-aws-db-users"
+  source = "../../..//"
 }
 
 inputs = {

@@ -93,6 +93,7 @@ locals {
   }
 }
 
+# where you keep the terraform module
 terraform {
   source = "../../..//"
 }
